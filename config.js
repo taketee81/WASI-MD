@@ -40,14 +40,14 @@ global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable W
 
 global.warncount = process.env.WARN_COUNT || 5,
 global.disablepm = process.env.DISABLE_PM || "false",
-global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
+global.MsgsInLog = process.env.MSGS_IN_LOG|| "true", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
 global.userImages= process.env.USER_IMAGES|| "text",
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "true"
-global.readmessage = process.env.READ_MESSAGE || "false"
+global.readmessage = process.env.READ_MESSAGE || "true"
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "+23274448130,+23234490871";
 
 
